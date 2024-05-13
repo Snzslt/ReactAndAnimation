@@ -16,7 +16,7 @@ export default function Modal({ title, children, onClose }) {
 
       <motion.dialog
         variants={{
-          hidden: { opacity: 0, y: 30},
+          hidden: { opacity: 0, y: 30 , transition: 0.1s},
           visible: { opacity: 1, y: 0 }
         }}
         initial="hidden"

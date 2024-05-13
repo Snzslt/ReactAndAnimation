@@ -58,7 +58,7 @@ export default function NewChallenge({ onDone }) {
         </p>
 
         <motion.ul id="new-challenge-images" variants={{
-          visible: { transition: {staggerChildren : 0.05 } }
+          visible:
         }}>
           {images.map((image) => (
             <motion.li
