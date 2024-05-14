@@ -66,6 +66,6 @@ export default function ChallengeItem({
           )}
         </div>
       </article>
-    </motion.li>
+    </li>
   );
 }
