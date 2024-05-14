@@ -58,20 +58,9 @@ export default function Challenges() {
               />
             ))}
             </AnimatePresence>
-          </motion.ol>
+          </ol>
         )}
-
-        {displayedChallenges.length === 0 && (
-           <motion.p
-           key="fallback"
-           initial={{ opacity: 0, y: -20 }}
-           animate={{ opacity: 1, y: 0 }}
-           exit={{ opacity: 0, y: -20 }}
-         >
-           No challenges found.
-         </motion.p>
-       )}
-       </AnimatePresence>
+        {displayedChallenges.length === 0 && <p>No challenges found.</p>}
       </ChallengeTabs>
     </div>
   );

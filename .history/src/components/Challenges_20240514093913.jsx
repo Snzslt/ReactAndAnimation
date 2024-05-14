@@ -61,7 +61,8 @@ export default function Challenges() {
           </motion.ol>
         )}
 
-        {displayedChallenges.length === 0 && (
+        {displayedChallenges.length === 0 &&9
+        
            <motion.p
            key="fallback"
            initial={{ opacity: 0, y: -20 }}
