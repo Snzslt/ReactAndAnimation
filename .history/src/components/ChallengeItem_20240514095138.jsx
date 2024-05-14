@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import {motion, AnimatePresence} from 'framer-motion';
+import {motion} from 'framer-motion';
 
 import { ChallengesContext } from '../store/challenges-context.jsx';
 
