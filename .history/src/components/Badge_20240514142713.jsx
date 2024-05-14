@@ -8,6 +8,6 @@ export default function Badge({ caption }) {
   className="badge"
   >
     {caption}
-     </motion.span>
+     </mption.span>
   );
 }

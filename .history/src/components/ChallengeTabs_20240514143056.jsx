@@ -9,7 +9,7 @@ function Tab({ isSelected, onSelect, badgeCaption, children }) {
         onClick={onSelect}
       >
         {children}
-        <Badge key={badgeCaption} caption={badgeCaption}></Badge>
+        <Badge key={} caption={badgeCaption}></Badge>
       </button>
       {isSelected && 
       <motion.div   
