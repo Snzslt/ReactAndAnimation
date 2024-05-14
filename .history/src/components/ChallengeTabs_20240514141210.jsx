@@ -1,5 +1,5 @@
 import Badge from './Badge.jsx';
-import {motion} from 'framer-motion';
+import {motion} from 'frmer'
 
 function Tab({ isSelected, onSelect, badgeCaption, children }) {
   return (
@@ -11,10 +11,7 @@ function Tab({ isSelected, onSelect, badgeCaption, children }) {
         {children}
         <Badge caption={badgeCaption}></Badge>
       </button>
-      {isSelected && 
-      <motion.div   
-      layoutId="tab-indicator"
-      className="active-tab-indicator" />}
+      {isSelected && <motion.div className="active-tab-indicator" />}
     </li>
   );
 }

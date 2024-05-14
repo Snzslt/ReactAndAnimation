@@ -13,7 +13,6 @@ function Tab({ isSelected, onSelect, badgeCaption, children }) {
       </button>
       {isSelected && 
       <motion.div   
-      layoutId="tab-indicator"
       className="active-tab-indicator" />}
     </li>
   );
